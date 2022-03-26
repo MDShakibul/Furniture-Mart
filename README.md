@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Furniture Mart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here anyone can choose a product. If anyone confused which product will brought. In site there are a option which help to choose any one product.
+
+# Live site link
+[https://inspiring-custard-b8e064.netlify.app/](https://inspiring-custard-b8e064.netlify.app/).
 
 ## Available Scripts
 
