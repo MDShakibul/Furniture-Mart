@@ -11,14 +11,14 @@ button{
     margin-right: 5px;
 }
 
-.chooseplace{
+.choose{
     display: flex;
     margin: 0 2rem;
     align-items: center;
     
 }
 
-.chooseplace img{
+.choose img{
     height: 40px;
     width: 40px;
     border-radius: 50%;

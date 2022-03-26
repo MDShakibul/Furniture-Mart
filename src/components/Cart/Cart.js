@@ -1,12 +1,12 @@
 import React from 'react';
-import Chooseplace from '../Chooseplace/Chooseplace';
+import Choose from '../Choose/Choose';
 import './Cart.css'
 
 const Cart = ({cart, handleChooseAgain, handleChooseOne, chooseOne}) => {
 
-    let choose_place = [];
-    for (let place of cart) {
-        choose_place.push(place);
+    let choose_product = [];
+    for (let product of cart) {
+        choose_product.push(product);
     }
 
 
@@ -15,14 +15,14 @@ const Cart = ({cart, handleChooseAgain, handleChooseOne, chooseOne}) => {
     
     return (
         <div className='cart'>
-            <h3>Selected Place</h3>
+            <h3>Selected Product</h3>
             {
-                choose_place.map(place => <Chooseplace key={place.id} place={place}></Chooseplace>)
+                choose_product.map(product => <Choose key={product.id} product={product}></Choose>)
             }
             <button className='btn-choosenOne' onClick={() => handleChooseOne()}>Choose One</button>
             <button className='btn-choosenAgain' onClick={() => handleChooseAgain()}>Choose Again</button>
 
-            <div className='chooseplace'>
+            <div className='choose'>
                 <img src={chooseOne.img} alt="" />
                 <p>{chooseOne.name}</p>
             </div>

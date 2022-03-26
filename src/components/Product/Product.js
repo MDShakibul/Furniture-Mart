@@ -1,21 +1,21 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAdd, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faAdd } from '@fortawesome/free-solid-svg-icons'
 
-import './Place.css'
+import './Product.css'
 
-const Place = (props) => {
-    const {id, img, name, cost} = props.place
+const Product = (props) => {
+    const { img, name, cost} = props.product;
     const {handelAddToCart} = props;
     return (
-        <div className='place'>
+        <div className='product'>
         <img src={img} alt="" />
         <div className="">
-        <h3 className="">Place Name: {name}</h3>
-        <p className="">Cost for Travelling: {cost} Taka</p>
+        <h3 className="">Product Name: {name}</h3>
+        <p className="">Price: {cost}</p>
         
         </div>
-        <button className="btn-cart" onClick={() => handelAddToCart(props.place)}> 
+        <button className="btn-cart" onClick={() => handelAddToCart(props.product)}> 
           <div className='btn-align'>
           <p className="btn-text">Select</p>
           <FontAwesomeIcon icon={faAdd}></FontAwesomeIcon>
@@ -25,4 +25,4 @@ const Place = (props) => {
     );
 };
 
-export default Place;
+export default Product;

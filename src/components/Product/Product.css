@@ -1,11 +1,11 @@
-.place{
+.product{
     border: 2px solid khaki;
     border-radius: 7px;
     background-color: azure;
     
 }
 
-.place img {
+.product img {
     height: 286px;
     width: 350px;
     border-radius: 8px;
@@ -34,4 +34,23 @@
       justify-content: center;
       align-items: center;
       padding: 0px 3rem;
+  }
+
+  @media screen and (max-width: 1375px) {
+    .product img {
+        height: 230px;
+        width: 280px;
+        border-radius: 8px;
+        margin: 7px;
+      }
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .product img {
+        height: 150px;
+        width: 200px;
+        border-radius: 8px;
+        margin: 7px;
+      }
   }

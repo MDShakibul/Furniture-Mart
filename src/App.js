@@ -1,11 +1,14 @@
 import './App.css';
-import Places from './components/Places/Places';
+import Products from './components/Products/Products';
+import Theory from './components/Theory/Theory';
 
 function App() {
   return (
     <div className="App">
-        <h1>Favorite Place</h1>
-        <Places></Places>
+        <h1>Furniture Mart</h1>
+        <Products></Products>
+        <h1>sjdfsdkf</h1>
+        <Theory></Theory>
     </div>
   );
 }

@@ -1,27 +1,26 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
-import Place from "../Place/Place";
-import "./Places.css";
+import Product from "../Product/Product";
+import "./Products.css";
 
-const Places = () => {
-  const [places, setPlaces] = useState([]);
+const Products = () => {
+  const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [chooseOne, setChooseOne] = useState([]);
   
 
   useEffect(() => {
-    fetch("places.json")
+    fetch("products.json")
       .then((res) => res.json())
-      .then((data) => setPlaces(data));
+      .then((data) => setProducts(data));
   }, []);
 
-  const handelAddToCart = (place) => {
-    const newCart = [...cart, place];
-    setCart(newCart);
+  const handelAddToCart = (product) => {
+   const newCart = [...cart, product];
+    setCart(newCart); 
   };
 
   const handleChooseOne =() =>{
-    setChooseOne([]);
     const select = [...cart];
     const random = Math.floor(Math.random() * select.length);
     setChooseOne(select[random]);
@@ -36,14 +35,14 @@ const Places = () => {
   
 
   return (
-    <div className="places-container">
-      <div className="places">
-        {places.map((place) => (
-          <Place
-            key={place.id}
-            place={place}
+    <div className="products-container">
+      <div className="products">
+        {products.map((product) => (
+          <Product
+            key={product.id}
+            product={product}
             handelAddToCart={handelAddToCart}
-          ></Place>
+          ></Product>
         ))}
       </div>
       <div className="cart-container">
@@ -53,4 +52,4 @@ const Places = () => {
   );
 };
 
-export default Places;
+export default Products;
