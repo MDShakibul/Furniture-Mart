@@ -1,16 +1,3 @@
-.cart{
-    position: sticky;
-    top: 0;
-}
-
-
-button{
-    padding: .5rem;
-}
-.btn-choosenOne{
-    margin-right: 5px;
-}
-
 .chooseplace{
     display: flex;
     margin: 0 2rem;

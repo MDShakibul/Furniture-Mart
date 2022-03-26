@@ -6,6 +6,7 @@ import './Place.css'
 
 const Place = (props) => {
     const {id, img, name, cost} = props.place
+    const {handelAddToCart} = props;
     return (
         <div className='place'>
         <img src={img} alt="" />
@@ -14,7 +15,7 @@ const Place = (props) => {
         <p className="">Cost for Travelling: {cost} Taka</p>
         
         </div>
-        <button className="btn-cart"> 
+        <button className="btn-cart" onClick={() => handelAddToCart(props.place)}> 
           <div className='btn-align'>
           <p className="btn-text">Select</p>
           <FontAwesomeIcon icon={faAdd}></FontAwesomeIcon>
