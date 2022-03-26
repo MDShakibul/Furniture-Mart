@@ -23,7 +23,6 @@ const Cart = ({cart, handleChooseAgain, handleChooseOne, chooseOne}) => {
             <button className='btn-choosenAgain' onClick={() => handleChooseAgain()}>Choose Again</button>
 
             <div className='choose'>
-                <img src={chooseOne.img} alt="" />
                 <p>{chooseOne.name}</p>
             </div>
             

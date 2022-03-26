@@ -6,7 +6,7 @@ const Theory = () => {
         <div >
             <div className='theory_container'>
             <h3>How Reacts Works?</h3>
-            <p>React use Diffing algorithm. It works in a declarative way. It mainly works by creating Virtual DOM. Virtual DOM means when project start then react made exactly the same kind of Main Dom. When any changing on code then react compare between Virtual Dom and Main Dom. Then react only change this part where code was changing. So it make it more dynamic. It creates DOM by rendering tree. It interacts with components by passing value from one to another.</p>
+            <p>Answer: React use Diffing algorithm. It works in a declarative way. It mainly works by creating Virtual DOM. Virtual DOM means when project start then react made exactly the same kind of Main Dom. When any changing on code then react compare between Virtual Dom and Main Dom. Then react only change this part where code was changing. So it make it more dynamic. It creates DOM by rendering tree. It interacts with components by passing value from one to another.</p>
             </div>
 
             <h3>Difference between props and state</h3>
