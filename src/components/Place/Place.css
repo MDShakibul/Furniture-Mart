@@ -1,0 +1,36 @@
+.place{
+    border: 2px solid khaki;
+    border-radius: 7px;
+    
+}
+
+.place img {
+    height: 286px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 7px;
+  }
+
+  .btn-cart{
+      margin-bottom: 1rem;
+  }
+
+  .btn-text{
+      
+      font-size: 16px;
+      font-weight: 700;
+      padding-right: 10px;
+  }
+
+  button{
+      border-radius: 1rem;
+      background-color: aquamarine;
+      
+  }
+
+  .btn-align{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 3rem;
+  }

@@ -1,0 +1,73 @@
+[
+    {
+        "id": "1",
+        "name": "Ahsan Manzil",
+        "cost": 2000,
+        "img": "./places_images/ahsan_manzil.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Boga Lake",
+        "cost": 2500,
+        "img": "./places_images/boga_lake.jpg"
+    },
+
+    {
+        "id": "3",
+        "name": "Chimbuk Hill",
+        "cost": 2200,
+        "img": "./places_images/chimbuk_hill.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Foy's Lake",
+        "cost": 3000,
+        "img": "./places_images/foy's_lake.jpg"
+    },
+
+    {
+        "id": "5",
+        "name": "Inani Beach",
+        "cost": 2800,
+        "img": "./places_images/inani_beach.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Lalbag",
+        "cost": 2000,
+        "img": "./places_images/lalbag.jpg"
+     },
+
+    {
+        "id": "7",
+        "name": "Martyrs Monument",
+        "cost": 2300,
+        "img": "./places_images/martyrs_monument.jpg"
+    },
+    {
+        "id": "8",
+        "name": "National Parliament",
+        "cost": 2000,
+        "img": "./places_images/national_parliament.jpg"
+    },
+
+    {
+        "id": "9",
+        "name": "Sixty Dome Mosque",
+        "cost": 1800,
+        "img": "./places_images/sixty_dome_mosque.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Sompur Mahavihara",
+        "cost": 1600,
+        "img": "./places_images/sompur_mahavihara.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Sonadia Island",
+        "cost": 2900,
+        "img": "./places_images/sonadia_island.jpg"
+    }
+  ]
+  
